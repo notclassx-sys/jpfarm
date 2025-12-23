@@ -40,11 +40,7 @@ const Hero = () => {
           <span className="text-yellow-400">at Hotel J P Farm, Jhansi</span>
         </h1>
 
-        <p className="text-xl sm:text-2xl md:text-3xl mb-4 font-light">
-          होटल जे पि फार्म में आपका स्वागत है
-        </p>
-
-        <p className="text-lg sm:text-xl mb-12 max-w-3xl mx-auto text-gray-200">
+        <p className="text-xl sm:text-2xl mb-12 max-w-3xl mx-auto text-gray-200">
           A peaceful resort perfect for families, couples, weddings & vacations
         </p>
 
