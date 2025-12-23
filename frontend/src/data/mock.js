@@ -1,0 +1,106 @@
+export const hotelData = {
+  name: "Hotel J P Farm",
+  nameHindi: "होटल जे पि फार्म",
+  type: "Resort Hotel",
+  rating: 4.1,
+  reviewCount: 543,
+  address: "Near, Infront of Gwalior Road Police Chowki, Polytechnic, Jhansi, Uttar Pradesh 284003",
+  plusCode: "FHF6+FC Jhansi, Uttar Pradesh",
+  phone: "075259 34333",
+  whatsapp: "07525934333",
+  checkIn: "12:00 PM",
+  checkOut: "12:00 PM",
+  images: {
+    resort: "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/giefvdoy_resort.webp",
+    room: "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/6sko7oyj_room.webp"
+  }
+};
+
+export const rooms = [
+  {
+    id: "1",
+    name: "Deluxe Room",
+    type: "Double Bed",
+    price: 1774,
+    maxGuests: 2,
+    amenities: ["Free Wi-Fi", "AC", "TV", "Room Service"],
+    image: hotelData.images.room,
+    available: true
+  },
+  {
+    id: "2",
+    name: "Executive Suite",
+    type: "King Bed + Sitting Area",
+    price: 2500,
+    maxGuests: 3,
+    amenities: ["Free Wi-Fi", "AC", "TV", "Mini Bar", "Room Service"],
+    image: hotelData.images.room,
+    available: true
+  },
+  {
+    id: "3",
+    name: "Family Room",
+    type: "Two Double Beds",
+    price: 3200,
+    maxGuests: 4,
+    amenities: ["Free Wi-Fi", "AC", "TV", "Kitchen", "Room Service"],
+    image: hotelData.images.room,
+    available: true
+  }
+];
+
+export const amenities = [
+  { name: "Free Wi-Fi", icon: "Wifi" },
+  { name: "Free Parking", icon: "ParkingCircle" },
+  { name: "Swimming Pool", icon: "Waves" },
+  { name: "Restaurant", icon: "UtensilsCrossed" },
+  { name: "Room Service", icon: "BellRing" },
+  { name: "Laundry Service", icon: "Shirt" },
+  { name: "Fitness Centre", icon: "Dumbbell" },
+  { name: "Kitchen", icon: "ChefHat" }
+];
+
+export const galleryCategories = [
+  {
+    name: "Rooms",
+    images: [hotelData.images.room, hotelData.images.room, hotelData.images.room]
+  },
+  {
+    name: "Exterior",
+    images: [hotelData.images.resort, hotelData.images.resort]
+  },
+  {
+    name: "Amenities",
+    images: [hotelData.images.resort, hotelData.images.room]
+  }
+];
+
+export const reviews = [
+  {
+    id: "1",
+    name: "Rajesh Kumar",
+    rating: 5,
+    date: "2024-01-15",
+    comment: "Excellent stay! Beautiful resort with amazing hospitality. Perfect for family vacation."
+  },
+  {
+    id: "2",
+    name: "Priya Sharma",
+    rating: 4,
+    date: "2024-01-10",
+    comment: "Great location and very peaceful environment. Rooms are spacious and clean."
+  },
+  {
+    id: "3",
+    name: "Amit Verma",
+    rating: 4,
+    date: "2024-01-05",
+    comment: "Had our wedding here. Staff was very cooperative and food was delicious!"
+  }
+];
+
+export const bookingPlatforms = [
+  { name: "MakeMyTrip", available: true },
+  { name: "Goibibo", available: true },
+  { name: "Cleartrip", available: true }
+];
