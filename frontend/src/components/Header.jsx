@@ -23,7 +23,6 @@ const Header = () => {
             <h1 className="text-2xl sm:text-3xl font-bold text-emerald-800">
               {hotelData.name}
             </h1>
-            <p className="text-sm text-emerald-600">{hotelData.nameHindi}</p>
           </div>
 
           {/* Desktop Navigation */}
