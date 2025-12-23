@@ -42,7 +42,7 @@ const Location = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
                   <a
-                    href={`tel:${hotelData.phone.replace(/\s/g, '')}`}
+                    href={`tel:${hotelData.phoneFormatted}`}
                     className="text-emerald-600 hover:text-emerald-800 text-lg font-semibold"
                   >
                     {hotelData.phone}
