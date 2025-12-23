@@ -54,7 +54,7 @@ const Hero = () => {
             <Calendar className="w-5 h-5 mr-2" />
             Check Availability
           </Button>
-          <a href={`tel:${hotelData.phone.replace(/\s/g, '')}`}>
+          <a href={`tel:${hotelData.phoneFormatted}`}>
             <Button
               size="lg"
               variant="outline"
