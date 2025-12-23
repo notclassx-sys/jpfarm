@@ -63,15 +63,29 @@ export const amenities = [
 export const galleryCategories = [
   {
     name: "Rooms",
-    images: [hotelData.images.room, hotelData.images.room, hotelData.images.room]
+    images: [
+      hotelData.images.room,
+      "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/46eavj2s_nnn.jfif",
+      "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/j6bwdjqg_hhh.jfif"
+    ]
   },
   {
     name: "Exterior",
-    images: [hotelData.images.resort, hotelData.images.resort]
+    images: [
+      hotelData.images.resort,
+      "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/fgdwkjf8_hh.jfif"
+    ]
   },
   {
     name: "Amenities",
     images: [hotelData.images.resort, hotelData.images.room]
+  },
+  {
+    name: "Food & Drinks",
+    images: [
+      "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/46eavj2s_nnn.jfif",
+      "https://customer-assets.emergentagent.com/job_jpfarmhotel/artifacts/j6bwdjqg_hhh.jfif"
+    ]
   }
 ];
 
