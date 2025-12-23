@@ -79,7 +79,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('location')} className="block w-full text-left text-gray-700 hover:text-emerald-700 font-medium py-2">
               Location
             </button>
-            <a href={`tel:${hotelData.phone.replace(/\s/g, '')}`} className="block">
+            <a href={`tel:${hotelData.phoneFormatted}`} className="block">
               <Button className="w-full bg-emerald-700 hover:bg-emerald-800 text-white">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
