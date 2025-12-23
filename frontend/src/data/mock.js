@@ -1,13 +1,13 @@
 export const hotelData = {
   name: "Hotel J P Farm",
-  nameHindi: "होटल जे पि फार्म",
   type: "Resort Hotel",
   rating: 4.1,
   reviewCount: 543,
   address: "Near, Infront of Gwalior Road Police Chowki, Polytechnic, Jhansi, Uttar Pradesh 284003",
   plusCode: "FHF6+FC Jhansi, Uttar Pradesh",
   phone: "075259 34333",
-  whatsapp: "07525934333",
+  phoneFormatted: "+917525934333", // Formatted for tel: links
+  whatsapp: "917525934333", // Without + for WhatsApp
   checkIn: "12:00 PM",
   checkOut: "12:00 PM",
   images: {
