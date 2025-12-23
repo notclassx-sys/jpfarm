@@ -17,7 +17,6 @@ const Footer = () => {
           {/* Hotel Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">{hotelData.name}</h3>
-            <p className="text-xl text-yellow-400 mb-4">{hotelData.nameHindi}</p>
             <p className="text-gray-300 leading-relaxed">
               Your premier resort destination in Jhansi for luxury stays, events, and celebrations.
             </p>
