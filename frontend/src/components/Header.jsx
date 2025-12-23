@@ -42,7 +42,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('location')} className="text-gray-700 hover:text-emerald-700 font-medium transition-colors">
               Location
             </button>
-            <a href={`tel:${hotelData.phone.replace(/\s/g, '')}`}>
+            <a href={`tel:${hotelData.phoneFormatted}`}>
               <Button className="bg-emerald-700 hover:bg-emerald-800 text-white">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
