@@ -19,7 +19,7 @@ const FloatingActions = () => {
   };
 
   const handleCallClick = () => {
-    window.location.href = `tel:${hotelData.phone.replace(/\s/g, '')}`;
+    window.location.href = `tel:${hotelData.phoneFormatted}`;
   };
 
   if (!showButtons) return null;
